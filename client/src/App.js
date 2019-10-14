@@ -17,7 +17,7 @@ const App = () => {
 
       <div>
         <Route exact path = "/" component = {MovieList}/>
-        <Route path = '/movie/:id' component = {Movie}/>
+        <Route  path = '/movie/:id' component = {Movie}/>
       </div>
     </div>
   );
